@@ -17,7 +17,7 @@ function App() {
   const posts = [
     {title: "Individual Awards 2022/2023", description: "Premier League 'Best Player' // Premier League 'Best Midfielder // UCL 'Best Midfielder'"},
     {title: "Trophies 2022/2023", description: "Uefa Champions League Cup // Premier League Cup"},
-    {title: "Stats 2022/2023", description: "Games: 49 // Goals scored: 10 // Assists: 31 // Yellow Cards: 2 // Red Cards: 0"}
+    {title: "Stats 2022/2023", description: "Games: 49 // Goals scored: 10 // Assists: 31 // Yellow Cards: 2 // Red Cards: 0"},
   ]
 
 
