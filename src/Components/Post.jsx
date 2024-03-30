@@ -1,10 +1,10 @@
 import React from "react";
 
-function Post () {
+function Post ({title, description}) {
     return (
         <div className="post">
-            <h3>Title</h3>
-            <p>Lorem Ipsum</p>
+            <h3>{title}</h3>
+            <p>{description}</p>
         </div>
     )
 }

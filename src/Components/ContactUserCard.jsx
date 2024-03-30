@@ -1,13 +1,13 @@
 import React from "react";
 
-function ContactCard () {
+function ContactCard ({name, position, team, profilePicture}) {
     return (
         <div className="contact-card">
-            <img src="./src/profile.png" alt="profile-picture" className="img"/>
+            <img src={profilePicture} alt="profile-picture" className="img"/>
             <div className="contact-card__info-box">
-                <h3>Romelu Lukaku</h3>
-                <h4>Striker</h4>
-                <h5>AS Roma</h5>
+                <h3>{name}</h3>
+                <h4>{position}</h4>
+                <h5>{team}</h5>
             </div>
         </div>
     )
